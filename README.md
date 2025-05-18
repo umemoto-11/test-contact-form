@@ -24,7 +24,7 @@ Laravel環境構築
 
 ## ER図
 
-![contact-form ER](https://github.com/user-attachments/assets/4e11fe21-9199-4fb0-ba9c-4cae6c249856)
+![ER](https://github.com/user-attachments/assets/ea8cca83-a76f-44ff-97ca-a3745528eb1d)
 
 ## URL
 
