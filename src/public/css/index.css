@@ -1,0 +1,111 @@
+* {
+    font-family: 'Inika';
+}
+
+.contact-form__content {
+    margin: 0 auto;
+    padding: 0 15px 30px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #8B7969;
+    width: 100%;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.contact-table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact-table__inner {
+    width: 100%;
+}
+
+.contact-table__header {
+    color: #8B7969;
+    font-weight: lighter;
+    text-align: left;
+    width: 30%;
+}
+
+.contact-table--required {
+    color: #FFA1A1;
+}
+
+.contact-table__text {
+    padding: 15px;
+    text-align: right;
+    display: flex;
+    justify-content: left;
+    color: #8B7969;
+}
+
+.contact-table__text-input, .contact-table__email-input, .contact-table__tel-input, .contact-table__address-input, .contact-table__building-input, .search-form__item-select, .contact-table__textarea-input {
+    background-color: #F4F4F4;
+    border: none;
+    outline: none;
+    height: 30px;
+    color: #BEB1A6;
+}
+
+.contact-table__text-input {
+    width: 48%;
+}
+
+.contact-table__text-input:last-of-type {
+    margin-left: 20px;
+}
+
+.contact-table__email-input, .contact-table__address-input, .contact-table__building-input, .contact-table__textarea-input {
+    width: 100%;
+}
+
+.contact-table__tel-input {
+    text-align: center;
+}
+
+.search-form__item-select {
+    width: 50%;
+}
+
+.contact-table__textarea-input {
+    height: 100px;
+}
+
+span {
+    padding: 0 20px;
+}
+
+.form__button {
+    text-align: center;
+}
+
+.form__button-submit {
+    background-color: #82756A;
+    color: #fff;
+    padding: 7px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.error {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form__error {
+    color: #ff0000;
+}

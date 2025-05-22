@@ -1,0 +1,78 @@
+* {
+    font-family: 'Inika';
+}
+
+.confirm__content {
+    margin: 0 auto;
+    padding: 0 15px 30px 15px;
+    max-width: 1230px;
+}
+
+.confirm__heading {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #8B7969;
+    width: 100%;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.confirm-table {
+    border: 1px solid #E0DFDE;
+}
+
+.confirm-table__inner {
+    width: 100%;
+}
+
+.confirm-table__header {
+    padding: 15px 50px;
+    width: 30%;
+    border: 1px solid #E0DFDE;
+    background: #BAA899;
+    color: #fff;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.confirm-table__text {
+    padding: 15px 35px;
+    border: 1px solid #E0DFDE;
+}
+
+.confirm-table__text input {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.confirm-table__row:last-child .confirm-table__header,
+.confirm-table__row:last-child .confirm-table__text {
+    border-bottom-width: 0;
+}
+
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    background: #82756A;
+    color: #fff;
+    padding: 7px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.form__link {
+    color: #8B7969;
+    margin-left: 30px;
+}

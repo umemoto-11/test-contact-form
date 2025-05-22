@@ -1,0 +1,89 @@
+* {
+    font-family: 'Inika';
+}
+
+.title__button {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.title__button-submit {
+    background-color: #F6F6F6;
+    color: #D9C6B5;
+    border: 1px solid #E3D4C7;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 20px;
+    font-size: 16px;
+}
+
+main {
+    background: #F1ECE7;
+}
+
+.login-form__content {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+}
+
+.login-form__heading {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #8B7969;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.form {
+    background-color: #fff;
+    padding: 70px 100px;
+    border-radius: 10px;
+    width: 580px;
+    height: 450px;
+    border: 1px solid #C5B9B0;
+}
+
+.form__title {
+    display: block;
+    margin: 15px 0 5px;
+    color: #8B7969;
+}
+
+.form__text {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #F4F4F4;
+    height: 40px;
+    color: #BEB1A6;
+}
+
+.login__button {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.login__button-submit {
+    background-color: #82756A;
+    color: #fff;
+    width: 40%;
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.form__error {
+    color: #ff0000;
+}
