@@ -1,0 +1,19 @@
+.header {
+    border-bottom: 1px solid #e0cfde;
+}
+
+.header__inner {
+    margin: 0 auto;
+    max-width: 1230px;
+    text-align: center;
+    position: relative;
+}
+
+.header__logo {
+    color: #8b7969;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: "Inika";
+    text-align: center;
+    font-weight: lighter;
+}

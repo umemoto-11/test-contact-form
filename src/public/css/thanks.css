@@ -1,0 +1,40 @@
+* {
+    font-family: 'Inika';
+}
+
+.thanks__content {
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+.relative {
+    position: relative;
+    font-size: 200px;
+    color: #F9F8F7;
+    padding: 50px;
+}
+
+.thanks__heading {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #8B7969;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.thanks__button {
+    text-align: center;
+}
+
+.thanks__button-submit {
+    background-color: #82756A;
+    color: #fff;
+    padding: 7px 30px;
+    border: none;
+    cursor: pointer;
+}
