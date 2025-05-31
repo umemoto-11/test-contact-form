@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Models\Category;
 use App\Models\Contact;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
@@ -15,6 +16,7 @@ class ContactFactory extends Factory
     public function definition()
     {
         return [
+            'category_id' => Category::first()->id,
             'last_name' => $this->faker->lastName,
             'first_name' => $this->faker->firstName,
             'gender' => $this->faker->boolean,
